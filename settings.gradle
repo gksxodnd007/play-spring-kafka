@@ -1,0 +1,2 @@
+rootProject.name = 'play-spring-kafka'
+include('consumer', 'producer', 'core')
