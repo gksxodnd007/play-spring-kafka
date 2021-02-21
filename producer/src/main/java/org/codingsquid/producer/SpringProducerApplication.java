@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2021.02.12
  */
 @SpringBootApplication
-public class ProducerApplication {
+public class SpringProducerApplication {
 
     public static void main(String... args) {
-        SpringApplication.run(ProducerApplication.class);
+        SpringApplication.run(SpringProducerApplication.class);
     }
 }

@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author taewoong.han
- * @since 2021.02.12
+ * @since 2021.02.22
  */
 @SpringBootApplication
-public class ConsumerApplication {
+public class SpringKafkaConsumerApplication {
 
-    public static void main(String... args) {
-        SpringApplication.run(ConsumerApplication.class);
+    public static void main(String... ars) {
+        SpringApplication.run(SpringKafkaConsumerApplication.class);
     }
 }

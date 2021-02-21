@@ -1,0 +1,18 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}
+
+ext {
+    jacksonVersion = "2.11.4"
+}
+
+jar {
+    bootJar.enabled = false
+    jar.enabled = true
+}
+
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter")
+    implementation("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
+}

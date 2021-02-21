@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-    implementation project(':core')
+    implementation(project(':core'))
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.apache.kafka:kafka-streams'
     implementation 'org.springframework.kafka:spring-kafka'
